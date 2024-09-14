@@ -2,7 +2,7 @@
 The **Advanced High-Performance Bus (AHB)** is part of ARM's **AMBA** standard, designed for fast, high-efficiency communication within system-on-chip (SoC) architectures. AHB supports high-speed data transfers between processors, memory, and peripherals, using a pipelined structure to minimize delays. It is ideal for embedded systems, enabling burst transfers, single-cycle memory access, and reliable error handling, making it crucial for applications requiring high performance and low power consumption.
 
 ![Alt text](./AHB/Images/AHB.PNG)
- <br /> *Figure 1: AHB Architectue*
+ <br /> *Figure 1: AHB Architecture*
 
 ---
 ## AMBA 
@@ -21,7 +21,7 @@ AMBA helps streamline system integration, enhance reusability, and improve syste
 An AHB master is a key component in the Advanced High-Performance Bus (AHB) system, responsible for initiating read and write operations on the bus. It generates addresses, controls data transfers, and manages signals to communicate with memory and other peripherals. The master can request control of the bus to perform high-speed transactions, while other components act as slaves, responding to its requests.
 
 ![Alt text](./AHB/Images/AHBmaster.PNG)
-*Figure 2: AHB Master Architectue*
+*Figure 2: AHB Master Architecture*
 
 ---
 
@@ -68,7 +68,7 @@ Our design consists of five key blocks:
 The master has an internal decoder that reads the first 8 bits from the control bus to decide whether to perform a read, write, or remain idle. If it's a read operation, the decoder also determines whether it's a single or INCR burst and transitions to the corresponding state accordingly.
 
 ![Alt text](./AHB/Images/ControlBus.PNG)
-*Figure 4: Instruction Bus*
+<br />  *Figure 4: Instruction Bus*
 
 - Write = `0xAA`
 - Read  = `0xBB `
