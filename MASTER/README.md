@@ -97,7 +97,7 @@ The following six tests apply similar scenarios but for read operations.
 
 Tests 13 and 14 evaluate the master's behavior when HREADY becomes low, while tests 15 and 16 assess the master's behavior during a busy state and when HREADY goes low during the busy state. These tests also verify the master's ability to change the HTRANS state.
 
-The complete list of test cases is summarized in the accompanying table.
+The complete list of test cases is summarized in the following table.
 
 | Test       | Single Burst | INCR | Read | Write | Overlapp | HREADY | BUSY |
 |------------|:------------:|:----:|:----:|:-----:|:--------:|:------:|:----:|
