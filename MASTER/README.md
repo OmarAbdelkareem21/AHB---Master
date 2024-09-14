@@ -2,7 +2,7 @@
 The **Advanced High-Performance Bus (AHB)** is part of ARM's **AMBA** standard, designed for fast, high-efficiency communication within system-on-chip (SoC) architectures. AHB supports high-speed data transfers between processors, memory, and peripherals, using a pipelined structure to minimize delays. It is ideal for embedded systems, enabling burst transfers, single-cycle memory access, and reliable error handling, making it crucial for applications requiring high performance and low power consumption.
 
 ![Alt text](./AHB/Images/AHB.PNG)
-  *Figure 1: AHB Architectue*
+ <br /> *Figure 1: AHB Architectue*
 
 ---
 ## AMBA 
