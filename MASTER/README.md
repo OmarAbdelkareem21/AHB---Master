@@ -177,4 +177,6 @@ The complete list of test cases is summarized in the following table.
 
 ### The FSM will be modified to have four states instead of six, and this adjustment will be made in the final integration assignment.
 
+### Overlap means a continuous burst, so HTRANS does not return to idle.
+
 ---
